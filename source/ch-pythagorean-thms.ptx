@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-pythagorean-thms" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Pythagorean Theorem(s)</title>
+
+  <blockquote>
+  <title>Pythagorean Theorem is most important</title>
+  <p>
+    <q>
+      To this day, the theorem of Pythagoras remains the most important single theorem in the whole of mathematics.
+    </q>
+  </p>
+  <attribution>Jacob Bronowski <pubtitle>The Ascent of Man</pubtitle> (p. 160)</attribution>
+</blockquote>
+
+<p>
+  Given the above quote, it seems only natural to start with The Pythagorean Theorem; 
+  a result about right triangles.
+</p>
+
+<p>
+  What is a triangle? A <term>triangle</term> is a planar figure formed by joining three straight lines, say, of lengths, <m>a, b, c</m>. 
+</p>
+
+<figure xml:id="fig-thales-insightversion2">
+  <caption>A triangle.</caption>
+  <image width="50%" xml:id="thales-insightversion2">
+
+  <latex-image>
+  \begin{tikzpicture}
+
+  \newcommand\myRightAngle[5]{
+  \pgfmathanglebetweenpoints{\pgfpointanchor{#2}{center}}{\pgfpointanchor{#1}{center}}
+  \coordinate (tmpRA) at ($(#2)+(\pgfmathresult+45:#4)$);
+  \draw[#5] ($(#2)!(tmpRA)!(#1)$) -- (tmpRA) -- ($(#2)!(tmpRA)!(#3)$);
+  }
+
+  % coordinates
+  \coordinate (A) at (0,0);
+  \coordinate (B) at (3,0);
+  \coordinate (C) at (0.46,1.07);
+  \coordinate (D) at (2.54,-1.07);
+
+  % side length labels
+  \node[text=blue] at (1.5,-0.5) {$c$};
+  \node[text=blue] at (1.5,1.0) {$a$};
+  \node[text=blue] at (0.0,0.7) {$b$};
+
+  % right angle
+  \myRightAngle{A}{C}{B}{0.4}{gray}
+
+  % points
+  \fill[blue] (A) circle (1pt) node[anchor=east, blue] {$A$}; %{$A$};
+  \fill[blue] (B) circle (1pt) node[anchor=west, blue] {$B$};
+  \fill[blue] (C) circle (1pt) node[anchor=south, blue] {$C$};
+  %\fill[blue] (D) circle (1pt) node[anchor=west, gray] {}; %{$D$};
+  
+  % triangle
+  \draw[blue] (A) -- (C) -- (B) -- (A);
+  \end{tikzpicture} 
+  </latex-image>
+  </image>
+</figure>
+
+<exercise>
+  <title>Try it!</title>
+
+  <introduction>
+    <p>
+      Can you make a triangle out of lines of the following lengths? If so, is it unique?
+    </p>
+  </introduction>
+
+  <task>
+    <statement>
+      <p>
+        <m>1, 1, 1</m>
+      </p>
+    </statement>
+  </task>
+
+  <task>
+    <statement>
+      <p>
+        <m>1, 2, 3</m>
+      </p>
+    </statement>
+  </task>
+  
+  <task>
+    <statement>
+      <p>
+        <m>3, 4, 5</m>
+      </p>
+    </statement>
+  </task>
+
+  <task>
+    <statement>
+      <p>
+        Can you find a general relationship between <m>a, b, c</m> that must be satisfied in order to guarantee a triangle always exists with these side lengths?
+      </p>
+    </statement>
+  </task>
+  
+</exercise>
+
+<p>
+  What is an angle? We will address this more fully shortly. 
+  For now, let's assume you know what an angle is and, specifically, 
+  a right-angle: one-half a straight angle (or, 1/4 of a full rotation).
+</p>
+
+<p>
+  The Pythagorean Theorem is stated and proved in the last two propositions (a.k.a. theorems) of Book I of Euclid's <pubtitle>Elements</pubtitle>.
+</p>
+
+<theorem>
+    <title>Pythagorean Theorem (Euclid Book I, Proposition 47)</title>
+  <statement>
+    <p>
+      In right-angled triangles the square on the side opposite the right angle equals the sum of the squares on the sides containing the right angle. 
+    </p>
+  </statement>
+</theorem>
+
+<figure xml:id="fig-pythag_proof1_fig1">
+  <caption>The Pythagorean Theorem.</caption>
+  <image width="50%" xml:id="pythag_proof1_fig1">
+
+  <latex-image>
+  \begin{tikzpicture}
+
+  \newcommand\myRightAngle[5]{
+  \pgfmathanglebetweenpoints{\pgfpointanchor{#2}{center}}{\pgfpointanchor{#1}{center}}
+  \coordinate (tmpRA) at ($(#2)+(\pgfmathresult+45:#4)$);
+  \draw[#5] ($(#2)!(tmpRA)!(#1)$) -- (tmpRA) -- ($(#2)!(tmpRA)!(#3)$);
+  }
+
+  % square points
+  % left square
+  \coordinate (D) at (-4,4);
+  \coordinate (E) at (-4,0);
+
+  % bottom square
+  \coordinate (F) at (0,-3);
+  \coordinate (G) at (3,-3);
+
+  % diagonal square
+  \coordinate (H) at (7,3);
+  \coordinate (I) at (4,7);
+
+  % triangle points
+  \coordinate (A) at (0,4);
+  \coordinate (B) at (3,0);
+  \coordinate (C) at (0,0);
+  
+  % left square
+  \draw[fill=gray!10] (A) -- (D) -- (E) -- (C) -- (A);
+
+  % bottom square
+  \draw[fill=gray!10] (C) -- (F) -- (G) -- (B) -- (C);
+
+  % diagonal square
+  \draw[fill=gray!10] (B) -- (H) -- (I) -- (A) -- (B);
+
+  % main triangle 
+  \draw[blue] (A) -- node [left] {$b$} (C) 
+                  -- node [below]  {$a$} (B) 
+                  -- node [above] {$c$} (A);
+  \myRightAngle{B}{C}{A}{0.4}{gray}; % right angle square
+
+  % labels triangle points
+  \fill[blue] (A) circle (3pt) node[anchor=south east, blue] {$A$};
+  \fill[blue] (B) circle (3pt) node[anchor=north west, blue] {$B$};
+  \fill[blue] (C) circle (3pt) node[anchor=north east, blue] {$C$};
+
+  % areas labels
+  \node at (3.5,3.6) {$c^2$};
+  \node at (1.5,-1.5) {$a^2$};
+  \node at (-2.0,2.0) {$b^2$};
+  \end{tikzpicture} 
+  </latex-image>
+  </image>
+</figure>
+
+
+
+</chapter>
+
+
+  <!--
+  \begin{quote}
+    To this day, the theorem of Pythagoras remains the most important single theorem in the whole of mathematics. \\
+    \phantom{yo} \hfill - Jacob Bronowski \emph{The Ascent of Man}, p. 160
+  \end{quote}
+  -->

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Introduction</title>
+
+  <!-- include sections -->
+  <!--<xi:include href="sec-section-name.ptx" />-->
+    <introduction>
+      <p>
+        The purpose of this pamphlet is to expose incoming trigonometry students 
+        to a few concepts from classical geometry, many of whom have never taken a course in 
+        Geometry in High School.
+      </p>
+
+      <p>
+        I have a few goals: 
+        <ol>
+          <li>
+            <p>
+                show inspiring geometric proofs; 
+            </p>
+          </li>
+          <li>
+            <p>
+                explain the difference between geometry and trigonometry; 
+            </p>
+          </li>
+          <li>
+            <p>
+                introduce optimization theory.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </introduction>
+
+
+</chapter>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-history" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>A Brief History</title>
+  
+  <!-- include sections -->
+  <!--<xi:include href="sec-section-name.ptx" />-->
+    <introduction>
+    <p>
+        Geometry grew out of observations made by ancient builders. 
+    </p>
+
+    <p>
+        I believe that humans love order and abstraction. 
+        You might disagree, but the fact that you know how to count 1, 2, 3, etc., 
+        without having one banana, two bananas, etc., shows that you at least find it's value. 
+        Abstraction makes the world easier and transforms difficult problems into more tractable ones. That is, abstraction simplifies the complicated mess of reality and let us one focus on a few properties at a time. Abstraction is certainly useful, but if it wasn't at least a bit of fun then I doubt it would have been this long-lasting, ubiquitous, and have so many practitioners (i.e. mathematicians). 
+
+        <!-- abstraction is useful but if it wasn't at least a bit fun no few would do it.-->
+    </p>
+    </introduction>
+
+
+</chapter>
