@@ -115,7 +115,7 @@
   The Pythagorean Theorem is stated and proved in the last two propositions (a.k.a. theorems) of Book I of Euclid's <pubtitle>Elements</pubtitle>.
 </p>
 
-<theorem>
+<theorem xml:id="thm-pythag-47">
     <title>Pythagorean Theorem (Euclid Book I, Proposition 47)</title>
   <statement>
     <p>
@@ -184,14 +184,54 @@
   </image>
 </figure>
 
+<p>
+  To the ancient geometers this was a statement about areas. 
+  But in modern times, this has now become an algebraic statement. 
+  In modern notation, this says, if <m>a, b, c</m> are the side lengths of a right triangle with <m>c</m> along the hypotenuse, 
+  then <m>a^2+b^2=c^2</m>.
+</p>
 
+<p>
+  But, wait! There's more!
+</p>
+
+<theorem xml:id="thm-pythag-48">
+    <title>Pythagorean Theorem (Euclid Book I, Proposition 48)</title>
+  <statement>
+    <p>
+      If in a triangle the square on one of the sides equals the sum of the squares on the remaining two sides of the triangle, 
+      then the angle contained by the remaining two sides of the triangle is right.
+    </p>
+  </statement>
+</theorem>
+
+<p>
+  Although these may look identical, a careful reading shows they are indeed different statements. 
+  In fact, they are <em>converses</em> of each other.
+</p>
+
+<p>
+  <xref ref="thm-pythag-47" /> says that if we know something about one of the angles in a triangle (that one is a right angle), 
+  then we can conclude a special relationship must hold about its side lengths. 
+</p>
+
+<p>
+  <xref ref="thm-pythag-48" /> says that if we know the side lengths of a triangle satisfy a special equation, 
+  then we can conclude something about one of its angles (one must be a right angle). 
+</p>
+
+<p>
+  Over 300 proofs of the Pythagorean Theorem exist. 
+  So, why not see if you can come up with your own proof! I'll provide a few of my favorite proofs later.
+</p>
+
+<p>
+  If you want to read the proof given in Euclid, 
+  I recommend that you jump straight into Proposition 48. 
+  Then read proposition 47, then 46, etc. Reading Euclid backwards, so-to-speak. 
+  This can be much more illuminating because you will understand why you need each previous result and you reduce it back to the definitions and axioms. 
+</p>
 
 </chapter>
 
 
-  <!--
-  \begin{quote}
-    To this day, the theorem of Pythagoras remains the most important single theorem in the whole of mathematics. \\
-    \phantom{yo} \hfill - Jacob Bronowski \emph{The Ascent of Man}, p. 160
-  \end{quote}
-  -->

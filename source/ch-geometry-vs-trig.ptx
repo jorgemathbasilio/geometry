@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-geometry-vs-trig">
+    <title>Geometry Versus Trigonometry</title>
+
+<p>
+    Let's start with the etymology of the terms: 
+</p>    
+
+<blockquote>
+  <title>Geometry</title>
+  <p>
+      <term>geometry</term> comes from the Greek word, <m>\gamma \epsilon \omega \mu \epsilon \tau \iota \alpha</m>. 
+  </p>
+  <p>
+    (<m>\gamma \epsilon \omega</m> = <q>geo</q> = Earth) <m>+</m> (<m>\mu \epsilon \tau \iota \alpha</m> = <q>metria</q> = to measure)
+  </p>
+</blockquote>
+
+<p>
+    and
+</p>
+
+<blockquote>
+  <title>Trigonometry</title>
+  <p>
+      <term>trigonometry</term> comes from the Greek word, <m>\tau \rho \iota \gamma \omega \nu o \mu \epsilon \tau \iota \alpha</m>. 
+  </p>
+  <p>
+    (<m>\tau \rho \iota \gamma \omega \nu o</m> = <q>trigono</q> = triangle) <m>+</m> (<m>\mu \epsilon \tau \iota \alpha</m> = <q>metria</q> = to measure)
+  </p>
+</blockquote>
+
+<p>
+   These terms suggest that geometry stemmed from observations from building and constructing land plots, homes, tools, etc. 
+   The objects that evidently present themselves are points (locations), lines (stretched ropes), circles and triangles. 
+   <term>Euclidean geometry</term> abstracts these objects (definitions, axioms, etc. see below) and 
+   provides a mathematical theory about these objects using the principles of logical deduction.  
+</p>
+
+<p>
+    Trigonometry also concerns the study of triangles and circles so what's difference? 
+    In short, numbers and algebra! Essentially, trigonometry is the theory of geometry using algebraic techniques, 
+    which includes a deep understanding of number (the real numbers) and measurement.
+</p>
+
+<p>
+    Let's look at a few problems from each field of study and compare and contrast.
+</p>
+
+<exercise>
+  <title>A geometry problem</title>
+
+    <statement>
+        <p>
+            A triangle has side lengths 10, 10, and 10 <taxon>Jorgemeters</taxon><fn>A Jorgemeter is a madeup unit of measuring length. A foot or meter or any other unit of length would do here.</fn> 
+            What are the angles?
+        </p>
+    </statement>
+
+    <hint>
+        <p>
+            If you imagine holding three sticks of the same length, how would you build a triangle? What do you notice about the angles?
+        </p>
+    </hint>
+
+    <answer>
+        <p>
+            All three angles are <m>60^{\circ}</m> or <m>\pi/3</m>.
+        </p>
+    </answer>
+</exercise>
+
+</chapter>
+
+<!-- 
+
+
+This can be solve with pure Euclidean geometry without measuring the angles. This can be done using pure geometry for only a few special triangles.
+
+\begin{prob}[Trigonometry Problem]
+    A triangle has side lengths 5, 6, and 7 \emph{Jorgemeters}. What are the angles?
+\end{prob}
+
+This cannot be solved using Euclidean Geometry and the best we could do would be to consruct such a triangle and measure the angles using a protractor. To arrive at an exact answer requires new ideas which we will learn in trigonometry. 
+
+Next, consider:
+
+\begin{prob}[Geometry Problem]
+    In a triangle two sides have lengths 3 and 4 \emph{Jorgemeters} and the angle between them is a right angle. What is the length of the third side?
+\end{prob}
+
+This can be solved using the Pythagorean Theorem.
+
+\begin{prob}[Trigonometry Problem]
+    In the same situation as Problem 3, what are the other two angles?
+\end{prob}
+
+We cannot find the angles using geometry. 
+
+We turn to a few problems on circles. 
+
+\begin{prob}[Geometry Problem]
+    In a certain circle, a central angle of $15^{\circ}$ cuts off an \underline{arc} that is 10 \emph{Jorgemeters} long. In the same circle, what is the length of the arc cut off by a central angle of $30^{\circ}$?
+\end{prob}
+
+ADD figure.
+
+This is easily solved because the arc length is additive. Whereas:
+
+\begin{prob}[Trigonometry Problem]
+    In a certain circle, a central angle of $15^{\circ}$ cuts off a \underline{chord} that is 8 \emph{Jorgemeters} long. In the same circle, what is the length of the chord cut off by a central angle of $30^{\circ}$?
+\end{prob}
+
+ADD figure.
+
+This cannot be easily solved because it is not simply twice the length as before. In fact, see if you can argue why the chord of central angle $30^{\circ}$ is actually less than twice as long as the chord of central angle $15^{\circ}$.
+-->
