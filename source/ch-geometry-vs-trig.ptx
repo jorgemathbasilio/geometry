@@ -57,62 +57,104 @@
             What are the angles?
         </p>
     </statement>
-
-    <hint>
-        <p>
-            If you imagine holding three sticks of the same length, how would you build a triangle? What do you notice about the angles?
-        </p>
-    </hint>
-
-    <answer>
-        <p>
-            All three angles are <m>60^{\circ}</m> or <m>\pi/3</m>.
-        </p>
-    </answer>
 </exercise>
 
+<p>
+    This can be solve with pure Euclidean geometry without measuring the angles. 
+    This can be done using pure geometry for only a few special triangles.
+</p>
+
+<exercise>
+  <title>A trigonometry problem</title>
+
+    <statement>
+        <p>
+            A triangle has side lengths 5, 6, and 7 <taxon>Jorgemeters</taxon>. 
+            What are the angles?
+        </p>
+    </statement>
+</exercise>
+
+<p>
+    This cannot be solved using Euclidean Geometry and the best we could do would be to construct such a triangle and measure 
+    the angles using a protractor. To arrive at an exact answer requires new ideas which we will learn in trigonometry. 
+</p>
+
+<p>
+    Next, consider:
+</p>
+
+<exercise>
+  <title>A geometry problem</title>
+
+    <statement>
+        <p>
+            In a triangle two sides have lengths 3 and 4 <taxon>Jorgemeters</taxon> and the angle between them is a right angle. 
+            What is the length of the third side?
+        </p>
+    </statement>
+</exercise>
+
+<p>
+    This can be solved using the Pythagorean Theorem.
+</p>
+
+<exercise>
+  <title>A trigonometry problem</title>
+
+    <statement>
+        <p>
+            In the same situation as Problem 3, what are the other two angles?
+        </p>
+    </statement>
+</exercise>
+
+<p>
+    We cannot find the angles using geometry. 
+</p>
+
+<p>
+    We turn to a few problems on circles. 
+</p>
+
+<exercise>
+  <title>A geometry problem</title>
+
+    <statement>
+        <p>
+            In a certain circle, a central angle of <m>15^{\circ}</m> cuts off an <term>arc</term> that is 10 <em>Jorgemeters</em> long. 
+            In the same circle, what is the length of the arc cut off by a central angle of <m>30^{\circ}</m>?
+        </p>
+    </statement>
+
+    <p>
+        ADD figure.
+    </p>
+</exercise>
+
+<p>
+    This is easily solved because the arc length is additive. Whereas:
+</p>
+
+<exercise>
+  <title>A trigonometry problem</title>
+
+    <statement>
+        <p>
+            In a certain circle, a central angle of <m>15^{\circ}</m> cuts off a <term>chord</term> that is 8 <em>Jorgemeters</em> long. 
+            In the same circle, what is the length of the chord cut off by a central angle of <m>30^{\circ}</m>?
+        </p>
+    </statement>
+
+    <p>
+        ADD figure.
+    </p>
+</exercise>
+
+<p>
+    This cannot be easily solved because it is not simply twice the length as before. I
+    n fact, see if you can argue why the chord of central angle <m>30^{\circ}</m> is actually less than twice as long as 
+    the chord of central angle <m>15^{\circ}</m>.
+</p>
 </chapter>
 
-<!-- 
-
-
-This can be solve with pure Euclidean geometry without measuring the angles. This can be done using pure geometry for only a few special triangles.
-
-\begin{prob}[Trigonometry Problem]
-    A triangle has side lengths 5, 6, and 7 \emph{Jorgemeters}. What are the angles?
-\end{prob}
-
-This cannot be solved using Euclidean Geometry and the best we could do would be to consruct such a triangle and measure the angles using a protractor. To arrive at an exact answer requires new ideas which we will learn in trigonometry. 
-
-Next, consider:
-
-\begin{prob}[Geometry Problem]
-    In a triangle two sides have lengths 3 and 4 \emph{Jorgemeters} and the angle between them is a right angle. What is the length of the third side?
-\end{prob}
-
-This can be solved using the Pythagorean Theorem.
-
-\begin{prob}[Trigonometry Problem]
-    In the same situation as Problem 3, what are the other two angles?
-\end{prob}
-
-We cannot find the angles using geometry. 
-
-We turn to a few problems on circles. 
-
-\begin{prob}[Geometry Problem]
-    In a certain circle, a central angle of $15^{\circ}$ cuts off an \underline{arc} that is 10 \emph{Jorgemeters} long. In the same circle, what is the length of the arc cut off by a central angle of $30^{\circ}$?
-\end{prob}
-
-ADD figure.
-
-This is easily solved because the arc length is additive. Whereas:
-
-\begin{prob}[Trigonometry Problem]
-    In a certain circle, a central angle of $15^{\circ}$ cuts off a \underline{chord} that is 8 \emph{Jorgemeters} long. In the same circle, what is the length of the chord cut off by a central angle of $30^{\circ}$?
-\end{prob}
-
-ADD figure.
-
-This cannot be easily solved because it is not simply twice the length as before. In fact, see if you can argue why the chord of central angle $30^{\circ}$ is actually less than twice as long as the chord of central angle $15^{\circ}$.
--->
