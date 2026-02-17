@@ -34,7 +34,7 @@ var ptx_lunr_docs = [
   "type": "Chapter",
   "number": "3",
   "title": "The Pythagorean Theorem(s)",
-  "body": " The Pythagorean Theorem(s)   Pythagorean Theorem is most important   To this day, the theorem of Pythagoras remains the most important single theorem in the whole of mathematics.   Jacob Bronowski The Ascent of Man (p. 160)   Given the above quote, it seems only natural to start with The Pythagorean Theorem; a result about right triangles.  What is a triangle? A triangle is a planar figure formed by joining three straight lines, say, of lengths, .   A triangle.       Try it!   Can you make a triangle out of lines of the following lengths? If so, is it unique?                          Can you find a general relationship between that must be satisfied in order to guarantee a triangle always exists with these side lengths?     What is an angle? We will address this more fully shortly. For now, let's assume you know what an angle is and, specifically, a right-angle: one-half a straight angle (or, 1\/4 of a full rotation).  The Pythagorean Theorem is stated and proved in the last two propositions (a.k.a. theorems) of Book I of Euclid's Elements .   Pythagorean Theorem (Euclid Book I, Proposition 47)   In right-angled triangles the square on the side opposite the right angle equals the sum of the squares on the sides containing the right angle.     Pythagorean Theorem.      "
+  "body": " The Pythagorean Theorem(s)   Pythagorean Theorem is most important   To this day, the theorem of Pythagoras remains the most important single theorem in the whole of mathematics.   Jacob Bronowski The Ascent of Man (p. 160)   Given the above quote, it seems only natural to start with The Pythagorean Theorem; a result about right triangles.  What is a triangle? A triangle is a planar figure formed by joining three straight lines, say, of lengths, .   A triangle.       Try it!   Can you make a triangle out of lines of the following lengths? If so, is it unique?                          Can you find a general relationship between that must be satisfied in order to guarantee a triangle always exists with these side lengths?     What is an angle? We will address this more fully shortly. For now, let's assume you know what an angle is and, specifically, a right-angle: one-half a straight angle (or, 1\/4 of a full rotation).  The Pythagorean Theorem is stated and proved in the last two propositions (a.k.a. theorems) of Book I of Euclid's Elements .   Pythagorean Theorem (Euclid Book I, Proposition 47)   In right-angled triangles the square on the side opposite the right angle equals the sum of the squares on the sides containing the right angle.     The Pythagorean Theorem.      To the ancient geometers this was a statement about areas. But in modern times, this has now become an algebraic statement. In modern notation, this says, if are the side lengths of a right triangle with along the hypotenuse, then .  But, wait! There's more!   Pythagorean Theorem (Euclid Book I, Proposition 48)   If in a triangle the square on one of the sides equals the sum of the squares on the remaining two sides of the triangle, then the angle contained by the remaining two sides of the triangle is right.    Although these may look identical, a careful reading shows they are indeed different statements. In fact, they are converses of each other.   says that if we know something about one of the angles in a triangle (that one is a right angle), then we can conclude a special relationship must hold about its side lengths.   says that if we know the side lengths of a triangle satisfy a special equation, then we can conclude something about one of its angles (one must be a right angle).  Over 300 proofs of the Pythagorean Theorem exist. So, why not see if you can come up with your own proof! I'll provide a few of my favorite proofs later.  If you want to read the proof given in Euclid, I recommend that you jump straight into Proposition 48. Then read proposition 47, then 46, etc. Reading Euclid backwards, so-to-speak. This can be much more illuminating because you will understand why you need each previous result and you reduce it back to the definitions and axioms.  "
 },
 {
   "id": "ch-pythagorean-thms-4",
@@ -64,9 +64,9 @@ var ptx_lunr_docs = [
   "body": " Try it!   Can you make a triangle out of lines of the following lengths? If so, is it unique?                          Can you find a general relationship between that must be satisfied in order to guarantee a triangle always exists with these side lengths?    "
 },
 {
-  "id": "ch-pythagorean-thms-9",
+  "id": "thm-pythag-47",
   "level": "2",
-  "url": "ch-pythagorean-thms.html#ch-pythagorean-thms-9",
+  "url": "ch-pythagorean-thms.html#thm-pythag-47",
   "type": "Theorem",
   "number": "3.0.3",
   "title": "Pythagorean Theorem (Euclid Book I, Proposition 47).",
@@ -79,12 +79,75 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "3.0.4",
   "title": "",
-  "body": " Pythagorean Theorem.     "
+  "body": " The Pythagorean Theorem.     "
+},
+{
+  "id": "thm-pythag-48",
+  "level": "2",
+  "url": "ch-pythagorean-thms.html#thm-pythag-48",
+  "type": "Theorem",
+  "number": "3.0.5",
+  "title": "Pythagorean Theorem (Euclid Book I, Proposition 48).",
+  "body": " Pythagorean Theorem (Euclid Book I, Proposition 48)   If in a triangle the square on one of the sides equals the sum of the squares on the remaining two sides of the triangle, then the angle contained by the remaining two sides of the triangle is right.   "
+},
+{
+  "id": "ch-geometry-vs-trig",
+  "level": "1",
+  "url": "ch-geometry-vs-trig.html",
+  "type": "Chapter",
+  "number": "4",
+  "title": "Geometry Versus Trigonometry",
+  "body": " Geometry Versus Trigonometry  Let's start with the etymology of the terms:   Geometry   geometry comes from the Greek word, .  ( = geo = Earth) ( = metria = to measure)   and   Trigonometry   trigonometry comes from the Greek word, .  ( = trigono = triangle) ( = metria = to measure)   These terms suggest that geometry stemmed from observations from building and constructing land plots, homes, tools, etc. The objects that evidently present themselves are points (locations), lines (stretched ropes), circles and triangles. Euclidean geometry abstracts these objects (definitions, axioms, etc. see below) and provides a mathematical theory about these objects using the principles of logical deduction.  Trigonometry also concerns the study of triangles and circles so what's difference? In short, numbers and algebra! Essentially, trigonometry is the theory of geometry using algebraic techniques, which includes a deep understanding of number (the real numbers) and measurement.  Let's look at a few problems from each field of study and compare and contrast.   A geometry problem   A triangle has side lengths 10, 10, and 10 Jorgemeters A Jorgemeter is a madeup unit of measuring length. A foot or meter or any other unit of length would do here. What are the angles?    If you imagine holding three sticks of the same length, how would you build a triangle? What do you notice about the angles?    All three angles are or .    "
+},
+{
+  "id": "ch-geometry-vs-trig-3-2",
+  "level": "2",
+  "url": "ch-geometry-vs-trig.html#ch-geometry-vs-trig-3-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "geometry "
+},
+{
+  "id": "ch-geometry-vs-trig-5-2",
+  "level": "2",
+  "url": "ch-geometry-vs-trig.html#ch-geometry-vs-trig-5-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "trigonometry "
+},
+{
+  "id": "ch-geometry-vs-trig-6",
+  "level": "2",
+  "url": "ch-geometry-vs-trig.html#ch-geometry-vs-trig-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Euclidean geometry "
+},
+{
+  "id": "ch-geometry-vs-trig-9",
+  "level": "2",
+  "url": "ch-geometry-vs-trig.html#ch-geometry-vs-trig-9",
+  "type": "Checkpoint",
+  "number": "4.0.1",
+  "title": "A geometry problem.",
+  "body": " A geometry problem   A triangle has side lengths 10, 10, and 10 Jorgemeters A Jorgemeter is a madeup unit of measuring length. A foot or meter or any other unit of length would do here. What are the angles?    If you imagine holding three sticks of the same length, how would you build a triangle? What do you notice about the angles?    All three angles are or .   "
 },
 {
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
+  "type": "Index",
+  "number": "",
+  "title": "Index",
+  "body": " Index   "
+},
+{
+  "id": "backmatter-3",
+  "level": "1",
+  "url": "backmatter-3.html",
   "type": "Colophon",
   "number": "",
   "title": "Colophon",
