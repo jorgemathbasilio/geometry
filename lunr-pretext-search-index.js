@@ -97,7 +97,7 @@ var ptx_lunr_docs = [
   "type": "Chapter",
   "number": "4",
   "title": "Geometry Versus Trigonometry",
-  "body": " Geometry Versus Trigonometry  Let's start with the etymology of the terms:   Geometry   geometry comes from the Greek word, .  ( = geo = Earth) ( = metria = to measure)   and   Trigonometry   trigonometry comes from the Greek word, .  ( = trigono = triangle) ( = metria = to measure)   These terms suggest that geometry stemmed from observations from building and constructing land plots, homes, tools, etc. The objects that evidently present themselves are points (locations), lines (stretched ropes), circles and triangles. Euclidean geometry abstracts these objects (definitions, axioms, etc. see below) and provides a mathematical theory about these objects using the principles of logical deduction.  Trigonometry also concerns the study of triangles and circles so what's difference? In short, numbers and algebra! Essentially, trigonometry is the theory of geometry using algebraic techniques, which includes a deep understanding of number (the real numbers) and measurement.  Let's look at a few problems from each field of study and compare and contrast.   A geometry problem   A triangle has side lengths 10, 10, and 10 Jorgemeters A Jorgemeter is a madeup unit of measuring length. A foot or meter or any other unit of length would do here. What are the angles?    This can be solve with pure Euclidean geometry without measuring the angles. This can be done using pure geometry for only a few special triangles.   A trigonometry problem   A triangle has side lengths 5, 6, and 7 Jorgemeters . What are the angles?    This cannot be solved using Euclidean Geometry and the best we could do would be to construct such a triangle and measure the angles using a protractor. To arrive at an exact answer requires new ideas which we will learn in trigonometry.  Next, consider:   A geometry problem   In a triangle two sides have lengths 3 and 4 Jorgemeters and the angle between them is a right angle. What is the length of the third side?    This can be solved using the Pythagorean Theorem.   A trigonometry problem   In the same situation as Problem 3, what are the other two angles?    We cannot find the angles using geometry.  We turn to a few problems on circles.   A geometry problem   In a certain circle, a central angle of cuts off an arc that is 10 Jorgemeters long. In the same circle, what is the length of the arc cut off by a central angle of ?   ADD figure.   This is easily solved because the arc length is additive. Whereas:   A trigonometry problem   In a certain circle, a central angle of cuts off a chord that is 8 Jorgemeters long. In the same circle, what is the length of the chord cut off by a central angle of ?   ADD figure.   This cannot be easily solved because it is not simply twice the length as before. I n fact, see if you can argue why the chord of central angle is actually less than twice as long as the chord of central angle .  "
+  "body": " Geometry Versus Trigonometry  Let's start with the etymology of the terms:   Geometry   geometry comes from the Greek word, .  ( = geo = Earth) ( = metria = to measure)   and   Trigonometry   trigonometry comes from the Greek word, .  ( = trigono = triangle) ( = metria = to measure)   These terms suggest that geometry stemmed from observations from building and constructing land plots, homes, tools, etc. The objects that evidently present themselves are points (locations), lines (stretched ropes), circles and triangles. Euclidean geometry abstracts these objects (definitions, axioms, etc. see below) and provides a mathematical theory about these objects using the principles of logical deduction.  Trigonometry also concerns the study of triangles and circles so what's difference? In short, numbers and algebra! Essentially, trigonometry is the theory of geometry using algebraic techniques, which includes a deep understanding of number (the real numbers) and measurement.  Let's look at a few problems from each field of study and compare and contrast.   A geometry problem   A triangle has side lengths 10, 10, and 10 Jorgemeters A Jorgemeter is a madeup unit of measuring length. A foot or meter or any other unit of length would do here. What are the angles?    This can be solve with pure Euclidean geometry without measuring the angles. This can be done using pure geometry for only a few special triangles.   A trigonometry problem   A triangle has side lengths 5, 6, and 7 Jorgemeters . What are the angles?    This cannot be solved using Euclidean Geometry and the best we could do would be to construct such a triangle and measure the angles using a protractor. To arrive at an exact answer requires new ideas which we will learn in trigonometry.  Next, consider:   A geometry problem   In a triangle two sides have lengths 3 and 4 Jorgemeters and the angle between them is a right angle. What is the length of the third side?    This can be solved using the Pythagorean Theorem.   A trigonometry problem   In the same situation as Problem 3, what are the other two angles?    We cannot find the angles using geometry.  We turn to a few problems on circles.   A geometry problem   In a certain circle, a central angle of cuts off an arc that is 10 Jorgemeters long. In the same circle, what is the length of the arc cut off by a central angle of ?  ADD figure.    This is easily solved because the arc length is additive. Whereas:   A trigonometry problem   In a certain circle, a central angle of cuts off a chord that is 8 Jorgemeters long. In the same circle, what is the length of the chord cut off by a central angle of ?  ADD figure.    This cannot be easily solved because it is not simply twice the length as before. I n fact, see if you can argue why the chord of central angle is actually less than twice as long as the chord of central angle .  "
 },
 {
   "id": "ch-geometry-vs-trig-3-2",
@@ -169,7 +169,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "4.0.5",
   "title": "A geometry problem.",
-  "body": " A geometry problem   In a certain circle, a central angle of cuts off an arc that is 10 Jorgemeters long. In the same circle, what is the length of the arc cut off by a central angle of ?   ADD figure.  "
+  "body": " A geometry problem   In a certain circle, a central angle of cuts off an arc that is 10 Jorgemeters long. In the same circle, what is the length of the arc cut off by a central angle of ?  ADD figure.   "
 },
 {
   "id": "ch-geometry-vs-trig-21",
@@ -178,7 +178,34 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "4.0.6",
   "title": "A trigonometry problem.",
-  "body": " A trigonometry problem   In a certain circle, a central angle of cuts off a chord that is 8 Jorgemeters long. In the same circle, what is the length of the chord cut off by a central angle of ?   ADD figure.  "
+  "body": " A trigonometry problem   In a certain circle, a central angle of cuts off a chord that is 8 Jorgemeters long. In the same circle, what is the length of the chord cut off by a central angle of ?  ADD figure.   "
+},
+{
+  "id": "ch-first-thms",
+  "level": "1",
+  "url": "ch-first-thms.html",
+  "type": "Chapter",
+  "number": "5",
+  "title": "The First Theorems",
+  "body": " The First Theorems  What were the first theorems developed in antiquity? While it is difficult to say for sure, one is likely the following result attributed to Thales:    A diameter cuts a circle into two equal parts.     Thales diameter theorem.      "
+},
+{
+  "id": "thm-thales1",
+  "level": "2",
+  "url": "ch-first-thms.html#thm-thales1",
+  "type": "Theorem",
+  "number": "5.0.1",
+  "title": "",
+  "body": "  A diameter cuts a circle into two equal parts.   "
+},
+{
+  "id": "fig-thales1",
+  "level": "2",
+  "url": "ch-first-thms.html#fig-thales1",
+  "type": "Figure",
+  "number": "5.0.2",
+  "title": "",
+  "body": " Thales diameter theorem.     "
 },
 {
   "id": "backmatter-2",
