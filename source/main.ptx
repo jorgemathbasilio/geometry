@@ -16,8 +16,8 @@
     <xi:include href="./ch-history.ptx" />
     <xi:include href="./ch-pythagorean-thms.ptx" />
     <xi:include href="./ch-geometry-vs-trig.ptx" />
-    <!--
     <xi:include href="./ch-first-thms.ptx" />
+    <!--
     <xi:include href="./ch-euclidean-geo.ptx" />
     <xi:include href="./ch-proofs-of-pythagorean.ptx" />
     <xi:include href="./ch-archimedes.ptx" />

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-first-thms">
+    <title>The First Theorems</title>
+
+<p>
+    What were the first theorems developed in antiquity? 
+    While it is difficult to say for sure, one is likely the following result attributed to Thales:
+</p>
+
+<theorem xml:id="thm-thales1">
+    <statement>
+        <p>
+            A diameter cuts a circle into two equal parts.
+        </p>
+    </statement>
+</theorem>
+
+
+
+<figure xml:id="fig-thales1">
+  <caption>Thales diameter theorem.</caption>
+  <image width="50%" xml:id="thales1">
+
+  <latex-image>
+  \begin{tikzpicture}
+  \coordinate [label=left:\textcolor{blue}{$A$}]  (A) at (0,0);
+  \coordinate [label=right:\textcolor{blue}{$B$}] (B) at (3,0);
+  \coordinate (C) at (1.5,0);
+
+  %line
+  \draw[blue] (A) -- (B);
+
+  % circle
+  \draw[blue] (C) circle (1.5);
+  \end{tikzpicture}   
+  </latex-image>
+  </image>
+</figure>
+
+<p>
+    Not very exiting, right? 
+    Well, it is not really the result that is so important but the realization that it can be proven using an argument. 
+    This realization  must have been a real <q>aha</q> moment. 
+</p>
+
+</chapter>
+
